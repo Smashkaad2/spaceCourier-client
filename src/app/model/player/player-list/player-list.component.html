@@ -1,0 +1,18 @@
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Username</th>
+                <th>Rol</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let player of players">
+                <td>{{player.Username}}</td>
+                <td>{{player.Rol}}</td>
+                <td>{{player.id}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

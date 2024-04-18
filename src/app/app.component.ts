@@ -10,4 +10,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'spaceCourier-client';
+  nombre: string = 'Javier';
+  jugadores: string[] = ['Javier','Jp','Gordo','Yoryo'];
 }
